@@ -1,0 +1,28 @@
+{
+  "name": "tipjar-hardhat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorge210488/tipjar-hardhat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorge210488/tipjar-hardhat/issues"
+  },
+  "homepage": "https://github.com/jorge210488/tipjar-hardhat#readme",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.24.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ethers": "^6.14.3"
+  }
+}
