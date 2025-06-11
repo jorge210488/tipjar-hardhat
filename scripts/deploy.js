@@ -5,7 +5,7 @@ async function main() {
   const tipJar = await TipJar.deploy();
 
   // En Ethers v6, no hace falta .deployed()
-  console.log(`TipJar deployed to: ${tipJar.target}`);
+  console.log(`TipJar deployado en: ${tipJar.target}`);
 }
 
 main().catch((error) => {
