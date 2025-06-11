@@ -37,6 +37,8 @@ npm install
 ```env
 SEPOLIA_URL=https://sepolia.infura.io/v3/TU_API_KEY
 PRIVATE_KEY=TU_PRIVATE_KEY
+ETHERSCAN_API_KEY=TU_API_KEY_DE_ETHERSCAN
+
 ```
 
 **IMPORTANTE:** no subas el `.env` al repositorio público.
@@ -63,6 +65,12 @@ npx hardhat test
 npx hardhat run scripts/deploy.js --network sepolia
 ```
 
+### 👉 Verficar el contrato:
+
+```bash
+npx hardhat verify --network sepolia TU_CONTRACT_ADDRESS
+```
+
 ### 👉 Interactuar con el contrato:
 
 ```bash
@@ -83,12 +91,13 @@ npx hardhat run scripts/interact.js --network sepolia
 
 - ✅ Struct `Tipper`, `message`, `timestamp`.
 - ✅ Array de propinas.
+- ✅ Verificación del contrato
 
 ---
 
 ## 📄 Estado actual
 
-✅ Contrato desplegado en Sepolia: [0xACa72829a06c263e34a984a6AF2ED967676773c7](https://sepolia.etherscan.io/address/0xACa72829a06c263e34a984a6AF2ED967676773c7)
+✅ Contrato desplegado en Sepolia: [0x0605790fF759C3ACF268aC5EC38ff0da500823Ad](https://sepolia.etherscan.io/address/0x0605790fF759C3ACF268aC5EC38ff0da500823Ad)
 
 ---
 
