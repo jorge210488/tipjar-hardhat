@@ -11,8 +11,9 @@ El contrato está desplegado en la testnet **Sepolia**.
 ## 🚀 Tecnologías
 
 - Solidity
-- Hardhat
+- Hardhat + Hardhat Toolbox
 - Ethers.js
+- dotenv
 - Sepolia testnet
 
 ---
@@ -97,11 +98,11 @@ npx hardhat run scripts/interact.js --network sepolia
 
 ## 📄 Estado actual
 
-✅ Contrato desplegado en Sepolia: [0x0605790fF759C3ACF268aC5EC38ff0da500823Ad](https://sepolia.etherscan.io/address/0x0605790fF759C3ACF268aC5EC38ff0da500823Ad)
+✅ Contrato desplegado en Sepolia: [0xd0dC0f65436818d00C6B9411BBF6990573EaeC11](https://sepolia.etherscan.io/address/0xd0dC0f65436818d00C6B9411BBF6990573EaeC11)
 
 ---
 
 ## 💻 Autor
 
-- \[Jorge Martínez]
-- [Tu GitHub](https://github.com/jorge210488)
+- **Jorge Martínez**
+- https://github.com/jorge210488

@@ -17,13 +17,13 @@ describe("TipJar", function () {
     await expect(
       tipJar.connect(addr1).tip("Buen trabajo!", { value: tipAmount })
     )
-      .to.emit(tipJar, "NuevaPropina")
+      .to.emit(tipJar, "NewTip") // ✅ nombre correcto del evento
       .withArgs(addr1.address, tipAmount, "Buen trabajo!");
   });
 
   it("Debería permitir retirar solo al dueno", async () => {
     await expect(tipJar.connect(addr1).withdraw()).to.be.revertedWith(
-      "Solo el dueno puede retirar"
+      "solo el dueno puede retirar" // ✅ match con tu require en el nuevo contrato
     );
   });
 
